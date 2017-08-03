@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rdj.carl.instagramfirebase.MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Artista"/>
+    <EditText
+        android:id="@+id/etGenere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Genero"/>
+    <Button
+        android:id="@+id/bAddArtist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_artist"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvArtist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

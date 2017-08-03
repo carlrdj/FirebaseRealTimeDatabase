@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FirebaseRealTimeDatabase</string>
+    <string name="add_artist">Add Artist</string>
+    <string name="save_artist">Guardar</string>
+</resources>
